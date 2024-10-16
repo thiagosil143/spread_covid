@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3d2913d3a6e7fd3d3be0641b07752cf9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3d2913d3a6e7fd3d3be0641b07752cf9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3d2913d3a6e7fd3d3be0641b07752cf9 = L.map(
+                "map_3d2913d3a6e7fd3d3be0641b07752cf9",
+                {
+                    center: [-21.55052, -46.633308],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a064f190c2bdafd74f3ff6fc03776044 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a064f190c2bdafd74f3ff6fc03776044.addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+            var circle_marker_8c5731a367fc65eeb8daf1f0399349c5 = L.circleMarker(
+                [-18.7184469679, -39.8582005952],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_ba19c58d01dd4582484732c2effe0b8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8561f7a8f5f5dfd4f663221cd37b43d = $(`<div id="html_c8561f7a8f5f5dfd4f663221cd37b43d" style="width: 100.0%; height: 100.0%;">3204906: SÃO MATEUS<br> Movimentos pendulares: VITÓRIA 642<br>RIO DE JANEIRO 53<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8705757904903383 RIO DE JANEIRO - 0.028604208217153246</div>`)[0];
+                popup_ba19c58d01dd4582484732c2effe0b8c.setContent(html_c8561f7a8f5f5dfd4f663221cd37b43d);
+            
+        
+
+        circle_marker_8c5731a367fc65eeb8daf1f0399349c5.bindPopup(popup_ba19c58d01dd4582484732c2effe0b8c)
+        ;
+
+        
+    
+    
+            var circle_marker_a2e361ce3c2d2b2e55e17c07ad3ca2b2 = L.circleMarker(
+                [-20.9158966201, -41.1912419094],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_2533d72441aacc4f5bf35aa6864e4117 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d04a3f1d751130e8c2c6ae029be1f674 = $(`<div id="html_d04a3f1d751130e8c2c6ae029be1f674" style="width: 100.0%; height: 100.0%;">3200706: ATILIO VIVACQUA<br> Movimentos pendulares: VITÓRIA 7<br>RIO DE JANEIRO 9<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.486557187900136 RIO DE JANEIRO - 0.49470854756882415</div>`)[0];
+                popup_2533d72441aacc4f5bf35aa6864e4117.setContent(html_d04a3f1d751130e8c2c6ae029be1f674);
+            
+        
+
+        circle_marker_a2e361ce3c2d2b2e55e17c07ad3ca2b2.bindPopup(popup_2533d72441aacc4f5bf35aa6864e4117)
+        ;
+
+        
+    
+    
+            var circle_marker_71e6cedf532dbb8e03cb07f6aeb6067b = L.circleMarker(
+                [-20.8501123501, -41.11191881],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_33d27e8fe8b7756111995f085afd5fae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f40926e31d046b5a103fa8a3c922885 = $(`<div id="html_8f40926e31d046b5a103fa8a3c922885" style="width: 100.0%; height: 100.0%;">3201209: CACHOEIRO DE ITAPEMIRIM<br> Movimentos pendulares: VITÓRIA 762<br>RIO DE JANEIRO 233<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.5748745597288406 RIO DE JANEIRO - 0.071608445268721</div>`)[0];
+                popup_33d27e8fe8b7756111995f085afd5fae.setContent(html_8f40926e31d046b5a103fa8a3c922885);
+            
+        
+
+        circle_marker_71e6cedf532dbb8e03cb07f6aeb6067b.bindPopup(popup_33d27e8fe8b7756111995f085afd5fae)
+        ;
+
+        
+    
+    
+            var circle_marker_f84e7bdc107770bf143b7fea46c48897 = L.circleMarker(
+                [-20.7753378049, -41.679496293],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_9efc4e6e62555cf4d54026da08326fc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_289e7b221b8582fbf56d195519304952 = $(`<div id="html_289e7b221b8582fbf56d195519304952" style="width: 100.0%; height: 100.0%;">3202306: GUAÇUÍ<br> Movimentos pendulares: VITÓRIA 101<br>RIO DE JANEIRO 146<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.37369857559695796 RIO DE JANEIRO - 0.48791483605537345</div>`)[0];
+                popup_9efc4e6e62555cf4d54026da08326fc7.setContent(html_289e7b221b8582fbf56d195519304952);
+            
+        
+
+        circle_marker_f84e7bdc107770bf143b7fea46c48897.bindPopup(popup_9efc4e6e62555cf4d54026da08326fc7)
+        ;
+
+        
+    
+    
+            var circle_marker_aa6d58e4f0ff0f7ea4d81ea409e15caa = L.circleMarker(
+                [-19.5142461287, -41.0120677361],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_290e0dc25b4e8d8d86b517e4ce41b87d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9acfec0cd2054498ce9bd6250d582901 = $(`<div id="html_9acfec0cd2054498ce9bd6250d582901" style="width: 100.0%; height: 100.0%;">3200805: BAIXO GUANDU<br> Movimentos pendulares: VITÓRIA 216<br>RIO DE JANEIRO 34<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8446853066653217 RIO DE JANEIRO - 0.09133278845858711</div>`)[0];
+                popup_290e0dc25b4e8d8d86b517e4ce41b87d.setContent(html_9acfec0cd2054498ce9bd6250d582901);
+            
+        
+
+        circle_marker_aa6d58e4f0ff0f7ea4d81ea409e15caa.bindPopup(popup_290e0dc25b4e8d8d86b517e4ce41b87d)
+        ;
+
+        
+    
+    
+            var circle_marker_29f266c3de4eb67efa868a693833b94e = L.circleMarker(
+                [-20.3655811139, -41.2453480411],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_67928cd449e147a93b2a7e59840ab2d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_735ab1110de232b509a12d5b2a5cad57 = $(`<div id="html_735ab1110de232b509a12d5b2a5cad57" style="width: 100.0%; height: 100.0%;">3201704: CONCEIÇÃO DO CASTELO<br> Movimentos pendulares: VITÓRIA 61<br>RIO DE JANEIRO 7<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9026804918993472 RIO DE JANEIRO - 0.0814341731494512</div>`)[0];
+                popup_67928cd449e147a93b2a7e59840ab2d0.setContent(html_735ab1110de232b509a12d5b2a5cad57);
+            
+        
+
+        circle_marker_29f266c3de4eb67efa868a693833b94e.bindPopup(popup_67928cd449e147a93b2a7e59840ab2d0)
+        ;
+
+        
+    
+    
+            var circle_marker_20cbdc9c9e9422f5ee8253f0e8edcd77 = L.circleMarker(
+                [-20.6716781984, -41.00714836],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_109a4a32825fe56f3377c396a8f6c160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c63235b28f2c61e024ee756cc3415b84 = $(`<div id="html_c63235b28f2c61e024ee756cc3415b84" style="width: 100.0%; height: 100.0%;">3205036: VARGEM ALTA<br> Movimentos pendulares: VITÓRIA 28<br>RIO DE JANEIRO 9<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.7782486260667655 RIO DE JANEIRO - 0.20114629040283954</div>`)[0];
+                popup_109a4a32825fe56f3377c396a8f6c160.setContent(html_c63235b28f2c61e024ee756cc3415b84);
+            
+        
+
+        circle_marker_20cbdc9c9e9422f5ee8253f0e8edcd77.bindPopup(popup_109a4a32825fe56f3377c396a8f6c160)
+        ;
+
+        
+    
+    
+            var circle_marker_d6901791f62bdd71e1b3ca73122a45db = L.circleMarker(
+                [-21.0110996271, -40.8361451166],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_78cd98cc7fe99c81301ec223e404efe8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1447b527e0ea6154f8346e952ec7a26 = $(`<div id="html_b1447b527e0ea6154f8346e952ec7a26" style="width: 100.0%; height: 100.0%;">3202801: ITAPEMIRIM<br> Movimentos pendulares: VITÓRIA 121<br>RIO DE JANEIRO 208<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.3141957485705503 RIO DE JANEIRO - 0.5113340228541166</div>`)[0];
+                popup_78cd98cc7fe99c81301ec223e404efe8.setContent(html_b1447b527e0ea6154f8346e952ec7a26);
+            
+        
+
+        circle_marker_d6901791f62bdd71e1b3ca73122a45db.bindPopup(popup_78cd98cc7fe99c81301ec223e404efe8)
+        ;
+
+        
+    
+    
+            var circle_marker_eeeb901a01d00e66bfcb011371bd2517 = L.circleMarker(
+                [-20.8376088994, -40.7279809409],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_71419c7462e02cc5f4edad616e186794 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6510cb2a81e490231b1e71ee6a16bb7 = $(`<div id="html_c6510cb2a81e490231b1e71ee6a16bb7" style="width: 100.0%; height: 100.0%;">3204203: PIÚMA<br> Movimentos pendulares: VITÓRIA 167<br>RIO DE JANEIRO 34<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8161258016113324 RIO DE JANEIRO - 0.12108605601611899</div>`)[0];
+                popup_71419c7462e02cc5f4edad616e186794.setContent(html_c6510cb2a81e490231b1e71ee6a16bb7);
+            
+        
+
+        circle_marker_eeeb901a01d00e66bfcb011371bd2517.bindPopup(popup_71419c7462e02cc5f4edad616e186794)
+        ;
+
+        
+    
+    
+            var circle_marker_dc1c15a475526fecb3129f8f8f10d3d5 = L.circleMarker(
+                [-21.1564478854, -41.5633797605],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_f94a8e622be070cca69e65a1eef4f308 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36cf4e17619316dfa0b8059dd1713026 = $(`<div id="html_36cf4e17619316dfa0b8059dd1713026" style="width: 100.0%; height: 100.0%;">3200508: APIACÁ<br> Movimentos pendulares: VITÓRIA 6<br>RIO DE JANEIRO 55<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.10615240009275743 RIO DE JANEIRO - 0.8772799025930985</div>`)[0];
+                popup_f94a8e622be070cca69e65a1eef4f308.setContent(html_36cf4e17619316dfa0b8059dd1713026);
+            
+        
+
+        circle_marker_dc1c15a475526fecb3129f8f8f10d3d5.bindPopup(popup_f94a8e622be070cca69e65a1eef4f308)
+        ;
+
+        
+    
+    
+            var circle_marker_29ae594a53cec1e22bfb3d6a0caefdaf = L.circleMarker(
+                [-21.1293417883, -41.6758105079],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_c03157e8e3c2396cb4ec6ed0a685d7b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1052caca6394001de14cd0be2b97a4be = $(`<div id="html_1052caca6394001de14cd0be2b97a4be" style="width: 100.0%; height: 100.0%;">3201100: BOM JESUS DO NORTE<br> Movimentos pendulares: VITÓRIA 20<br>RIO DE JANEIRO 25<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.47127227741897143 RIO DE JANEIRO - 0.4945830431469399</div>`)[0];
+                popup_c03157e8e3c2396cb4ec6ed0a685d7b4.setContent(html_1052caca6394001de14cd0be2b97a4be);
+            
+        
+
+        circle_marker_29ae594a53cec1e22bfb3d6a0caefdaf.bindPopup(popup_c03157e8e3c2396cb4ec6ed0a685d7b4)
+        ;
+
+        
+    
+    
+            var circle_marker_86c859600367a369ddaba9928b2b9859 = L.circleMarker(
+                [-21.0261302465, -41.6560878494],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_edaee0033fa44dea7d1ce13a971426c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d023917db5fff0ecfa24927d091fe0b = $(`<div id="html_2d023917db5fff0ecfa24927d091fe0b" style="width: 100.0%; height: 100.0%;">3204807: SÃO JOSÉ DO CALÇADO<br> Movimentos pendulares: VITÓRIA 10<br>RIO DE JANEIRO 47<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.18889158307918683 RIO DE JANEIRO - 0.7858532332696535</div>`)[0];
+                popup_edaee0033fa44dea7d1ce13a971426c8.setContent(html_2d023917db5fff0ecfa24927d091fe0b);
+            
+        
+
+        circle_marker_86c859600367a369ddaba9928b2b9859.bindPopup(popup_edaee0033fa44dea7d1ce13a971426c8)
+        ;
+
+        
+    
+    
+            var circle_marker_de3360b3d82d2346c2eff3cafa248758 = L.circleMarker(
+                [-21.0429962752, -40.8301872861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_c5012cd5939e0bab202f6ba6a22e698f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6942992894f9b5062dc822cc019f2fdc = $(`<div id="html_6942992894f9b5062dc822cc019f2fdc" style="width: 100.0%; height: 100.0%;">3203320: MARATAÍZES<br> Movimentos pendulares: VITÓRIA 156<br>RIO DE JANEIRO 74<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.6488343522701586 RIO DE JANEIRO - 0.23856791092089913</div>`)[0];
+                popup_c5012cd5939e0bab202f6ba6a22e698f.setContent(html_6942992894f9b5062dc822cc019f2fdc);
+            
+        
+
+        circle_marker_de3360b3d82d2346c2eff3cafa248758.bindPopup(popup_c5012cd5939e0bab202f6ba6a22e698f)
+        ;
+
+        
+    
+    
+            var circle_marker_2dc09a1b1c44676152a0e8a5c9b7133a = L.circleMarker(
+                [-18.7590890533, -40.8903986238],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_418f62cd4750a35ff406d7536f647d08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dcd23ceb80c3d0cd1fe20f8b867c6ef = $(`<div id="html_6dcd23ceb80c3d0cd1fe20f8b867c6ef" style="width: 100.0%; height: 100.0%;">3200904: BARRA DE SÃO FRANCISCO<br> Movimentos pendulares: VITÓRIA 94<br>RIO DE JANEIRO 11<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8962824834712667 RIO DE JANEIRO - 0.08048956500865967</div>`)[0];
+                popup_418f62cd4750a35ff406d7536f647d08.setContent(html_6dcd23ceb80c3d0cd1fe20f8b867c6ef);
+            
+        
+
+        circle_marker_2dc09a1b1c44676152a0e8a5c9b7133a.bindPopup(popup_418f62cd4750a35ff406d7536f647d08)
+        ;
+
+        
+    
+    
+            var circle_marker_1b054cf79c6496c22f78139c8554b5b5 = L.circleMarker(
+                [-20.6020650863, -41.202212704],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_ca0b12591ad04b82cc4cf130f8e31159 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eea9e4ea93019cf4386af9ef9b07d5cf = $(`<div id="html_eea9e4ea93019cf4386af9ef9b07d5cf" style="width: 100.0%; height: 100.0%;">3201407: CASTELO<br> Movimentos pendulares: VITÓRIA 262<br>RIO DE JANEIRO 71<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.7431314645164373 RIO DE JANEIRO - 0.1363779424710047</div>`)[0];
+                popup_ca0b12591ad04b82cc4cf130f8e31159.setContent(html_eea9e4ea93019cf4386af9ef9b07d5cf);
+            
+        
+
+        circle_marker_1b054cf79c6496c22f78139c8554b5b5.bindPopup(popup_ca0b12591ad04b82cc4cf130f8e31159)
+        ;
+
+        
+    
+    
+            var circle_marker_54edc19e9b4f63902595978841ec7206 = L.circleMarker(
+                [-20.0288140584, -40.7416178008],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_f1f2ea32c0606af63a164321abe93aca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82d58d315ec5e9757c3bc1adb95a4f94 = $(`<div id="html_82d58d315ec5e9757c3bc1adb95a4f94" style="width: 100.0%; height: 100.0%;">3204559: SANTA MARIA DE JETIBÁ<br> Movimentos pendulares: VITÓRIA 187<br>RIO DE JANEIRO 13<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9285616050041677 RIO DE JANEIRO - 0.04476614952660754</div>`)[0];
+                popup_f1f2ea32c0606af63a164321abe93aca.setContent(html_82d58d315ec5e9757c3bc1adb95a4f94);
+            
+        
+
+        circle_marker_54edc19e9b4f63902595978841ec7206.bindPopup(popup_f1f2ea32c0606af63a164321abe93aca)
+        ;
+
+        
+    
+    
+            var circle_marker_ba6d86626816c550b1b8c91463bc4dad = L.circleMarker(
+                [-20.7971447538, -40.8112210455],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_b59ff77628c2abc5389e55bb454705d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c589b85144d43304a441c68b1dddc8d0 = $(`<div id="html_c589b85144d43304a441c68b1dddc8d0" style="width: 100.0%; height: 100.0%;">3202603: ICONHA<br> Movimentos pendulares: VITÓRIA 105<br>RIO DE JANEIRO 21<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8313410306087718 RIO DE JANEIRO - 0.12794019938573176</div>`)[0];
+                popup_b59ff77628c2abc5389e55bb454705d6.setContent(html_c589b85144d43304a441c68b1dddc8d0);
+            
+        
+
+        circle_marker_ba6d86626816c550b1b8c91463bc4dad.bindPopup(popup_b59ff77628c2abc5389e55bb454705d6)
+        ;
+
+        
+    
+    
+            var circle_marker_1f2b66ba083324ec4380576874cfb352 = L.circleMarker(
+                [-20.3383741039, -40.2939566371],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_b5cfa9f7c874a8f0a8153b8688a1a39d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17f013e4fe2a79c0f76625ef4cfa46e7 = $(`<div id="html_17f013e4fe2a79c0f76625ef4cfa46e7" style="width: 100.0%; height: 100.0%;">3205200: VILA VELHA<br> Movimentos pendulares: VITÓRIA 50998<br>RIO DE JANEIRO 553<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.3222242427892331 RIO DE JANEIRO - 2.1246143489309225e-52</div>`)[0];
+                popup_b5cfa9f7c874a8f0a8153b8688a1a39d.setContent(html_17f013e4fe2a79c0f76625ef4cfa46e7);
+            
+        
+
+        circle_marker_1f2b66ba083324ec4380576874cfb352.bindPopup(popup_b5cfa9f7c874a8f0a8153b8688a1a39d)
+        ;
+
+        
+    
+    
+            var circle_marker_1e9d4609f3552f85c353c6b1cbd421b4 = L.circleMarker(
+                [-20.7632651349, -41.536488319],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_74ad67dd9d5bba0f619b01dabc282934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e698d89aed4f9ae9154eca86385c7c99 = $(`<div id="html_e698d89aed4f9ae9154eca86385c7c99" style="width: 100.0%; height: 100.0%;">3200201: ALEGRE<br> Movimentos pendulares: VITÓRIA 184<br>RIO DE JANEIRO 112<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.5726815784239526 RIO DE JANEIRO - 0.2729428446268041</div>`)[0];
+                popup_74ad67dd9d5bba0f619b01dabc282934.setContent(html_e698d89aed4f9ae9154eca86385c7c99);
+            
+        
+
+        circle_marker_1e9d4609f3552f85c353c6b1cbd421b4.bindPopup(popup_74ad67dd9d5bba0f619b01dabc282934)
+        ;
+
+        
+    
+    
+            var circle_marker_a6911c23bc9bf74f1eb1baa4f41ae14a = L.circleMarker(
+                [-20.1567698429, -40.2752170364],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_96e34d9ade9bd57d186b902bc2744fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_347899157d783a68e7ae4c52c89d44a4 = $(`<div id="html_347899157d783a68e7ae4c52c89d44a4" style="width: 100.0%; height: 100.0%;">3205002: SERRA<br> Movimentos pendulares: VITÓRIA 59909<br>RIO DE JANEIRO 203<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.6598579945865223 RIO DE JANEIRO - 1.0677601142528284e-61</div>`)[0];
+                popup_96e34d9ade9bd57d186b902bc2744fe4.setContent(html_347899157d783a68e7ae4c52c89d44a4);
+            
+        
+
+        circle_marker_a6911c23bc9bf74f1eb1baa4f41ae14a.bindPopup(popup_96e34d9ade9bd57d186b902bc2744fe4)
+        ;
+
+        
+    
+    
+            var circle_marker_1bf15a613809d6dbc9ec41028fc68453 = L.circleMarker(
+                [-20.2946777966, -40.3905591043],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_c97d9f90fa8b5080b46ba816b6fd4014 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fcc634ad4889a30a30e1eaba018ceb5 = $(`<div id="html_5fcc634ad4889a30a30e1eaba018ceb5" style="width: 100.0%; height: 100.0%;">3201308: CARIACICA<br> Movimentos pendulares: VITÓRIA 44632<br>RIO DE JANEIRO 219<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.63858686152463 RIO DE JANEIRO - 3.043245384767643e-46</div>`)[0];
+                popup_c97d9f90fa8b5080b46ba816b6fd4014.setContent(html_5fcc634ad4889a30a30e1eaba018ceb5);
+            
+        
+
+        circle_marker_1bf15a613809d6dbc9ec41028fc68453.bindPopup(popup_c97d9f90fa8b5080b46ba816b6fd4014)
+        ;
+
+        
+    
+    
+            var circle_marker_0147813bf31ac7a1301267b6e1cc0c7a = L.circleMarker(
+                [-19.8232777406, -40.276223376],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_e3ad821bb42af667b370ceb3b08df122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cb9e44527edc0b4cb118c9053beedf5 = $(`<div id="html_0cb9e44527edc0b4cb118c9053beedf5" style="width: 100.0%; height: 100.0%;">3200607: ARACRUZ<br> Movimentos pendulares: VITÓRIA 1312<br>RIO DE JANEIRO 56<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.886725720000497 RIO DE JANEIRO - 0.0053282305693439416</div>`)[0];
+                popup_e3ad821bb42af667b370ceb3b08df122.setContent(html_0cb9e44527edc0b4cb118c9053beedf5);
+            
+        
+
+        circle_marker_0147813bf31ac7a1301267b6e1cc0c7a.bindPopup(popup_e3ad821bb42af667b370ceb3b08df122)
+        ;
+
+        
+    
+    
+            var circle_marker_cdc66b3b93d14f04c636e3197311d4b9 = L.circleMarker(
+                [-19.7529585987, -40.3808804853],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_0aaa2bfe5e4c21d4f7ab2bed37ec2f6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a801bc7088e617ffd766c3e41d30208b = $(`<div id="html_a801bc7088e617ffd766c3e41d30208b" style="width: 100.0%; height: 100.0%;">3203130: JOÃO NEIVA<br> Movimentos pendulares: VITÓRIA 412<br>RIO DE JANEIRO 26<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9179645079291792 RIO DE JANEIRO - 0.030720455962645415</div>`)[0];
+                popup_0aaa2bfe5e4c21d4f7ab2bed37ec2f6f.setContent(html_a801bc7088e617ffd766c3e41d30208b);
+            
+        
+
+        circle_marker_cdc66b3b93d14f04c636e3197311d4b9.bindPopup(popup_0aaa2bfe5e4c21d4f7ab2bed37ec2f6f)
+        ;
+
+        
+    
+    
+            var circle_marker_81986dd57a62e2fcb37f2c4be86b0ac1 = L.circleMarker(
+                [-20.8645861497, -40.9362283559],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_cba53afe0fec9ff320796739ae411cf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ddf0eafc90ad72cba29fd9c190b931b = $(`<div id="html_5ddf0eafc90ad72cba29fd9c190b931b" style="width: 100.0%; height: 100.0%;">3204401: RIO NOVO DO SUL<br> Movimentos pendulares: VITÓRIA 63<br>RIO DE JANEIRO 34<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.6551428680317312 RIO DE JANEIRO - 0.29000043831295697</div>`)[0];
+                popup_cba53afe0fec9ff320796739ae411cf4.setContent(html_5ddf0eafc90ad72cba29fd9c190b931b);
+            
+        
+
+        circle_marker_81986dd57a62e2fcb37f2c4be86b0ac1.bindPopup(popup_cba53afe0fec9ff320796739ae411cf4)
+        ;
+
+        
+    
+    
+            var circle_marker_a796a3d4ccf9d8aff6bd2655f8c5e439 = L.circleMarker(
+                [-21.1001484088, -41.0518956303],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_d5aab624eb9d4ac624d8a188d445dfb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d8cf5f6bcc2e976e89646c756e04c0a = $(`<div id="html_8d8cf5f6bcc2e976e89646c756e04c0a" style="width: 100.0%; height: 100.0%;">3204302: PRESIDENTE KENNEDY<br> Movimentos pendulares: VITÓRIA 35<br>RIO DE JANEIRO 4<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9074685205906202 RIO DE JANEIRO - 0.08217956808069786</div>`)[0];
+                popup_d5aab624eb9d4ac624d8a188d445dfb3.setContent(html_8d8cf5f6bcc2e976e89646c756e04c0a);
+            
+        
+
+        circle_marker_a796a3d4ccf9d8aff6bd2655f8c5e439.bindPopup(popup_d5aab624eb9d4ac624d8a188d445dfb3)
+        ;
+
+        
+    
+    
+            var circle_marker_74402ef480e7e8d09897c31360dfeee7 = L.circleMarker(
+                [-20.4267085918, -40.680383433],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_6f1ea11d035a013e1a8542089e44ebdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ad7bfa6238758977d846395055d1fd9 = $(`<div id="html_2ad7bfa6238758977d846395055d1fd9" style="width: 100.0%; height: 100.0%;">3203346: MARECHAL FLORIANO<br> Movimentos pendulares: VITÓRIA 246<br>RIO DE JANEIRO 5<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.976765306598859 RIO DE JANEIRO - 0.012702502727593521</div>`)[0];
+                popup_6f1ea11d035a013e1a8542089e44ebdc.setContent(html_2ad7bfa6238758977d846395055d1fd9);
+            
+        
+
+        circle_marker_74402ef480e7e8d09897c31360dfeee7.bindPopup(popup_6f1ea11d035a013e1a8542089e44ebdc)
+        ;
+
+        
+    
+    
+            var circle_marker_94b09d0f818ba2e86df851e339b95889 = L.circleMarker(
+                [-20.3485995134, -41.5328886935],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_b0566cbf7fff0eb379bb6dae15305804 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3595fbec344168f8511f6c86f2a9304c = $(`<div id="html_3595fbec344168f8511f6c86f2a9304c" style="width: 100.0%; height: 100.0%;">3203007: IÚNA<br> Movimentos pendulares: VITÓRIA 137<br>RIO DE JANEIRO 41<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.7561708262918269 RIO DE JANEIRO - 0.17236111813805272</div>`)[0];
+                popup_b0566cbf7fff0eb379bb6dae15305804.setContent(html_3595fbec344168f8511f6c86f2a9304c);
+            
+        
+
+        circle_marker_94b09d0f818ba2e86df851e339b95889.bindPopup(popup_b0566cbf7fff0eb379bb6dae15305804)
+        ;
+
+        
+    
+    
+            var circle_marker_c9df15a365a40eb0db3df38ca2cbd5c2 = L.circleMarker(
+                [-19.536270084, -40.6303175542],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_dca8861fc6f426bc8010ab5d4b0ed335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e70b783294d43af786f800c9ae8c9743 = $(`<div id="html_e70b783294d43af786f800c9ae8c9743" style="width: 100.0%; height: 100.0%;">3201506: COLATINA<br> Movimentos pendulares: VITÓRIA 832<br>RIO DE JANEIRO 86<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8156983192452958 RIO DE JANEIRO - 0.026313861797072322</div>`)[0];
+                popup_dca8861fc6f426bc8010ab5d4b0ed335.setContent(html_e70b783294d43af786f800c9ae8c9743);
+            
+        
+
+        circle_marker_c9df15a365a40eb0db3df38ca2cbd5c2.bindPopup(popup_dca8861fc6f426bc8010ab5d4b0ed335)
+        ;
+
+        
+    
+    
+            var circle_marker_e9fa951ce4f987e43d5ab2b389d18a9d = L.circleMarker(
+                [-19.7253072049, -40.6431387551],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_4dc08ff08d057d6621256f2e27c7e7b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91d49f96e243b7fe76d45ac922171560 = $(`<div id="html_91d49f96e243b7fe76d45ac922171560" style="width: 100.0%; height: 100.0%;">3204955: SÃO ROQUE DO CANAÃ<br> Movimentos pendulares: VITÓRIA 23<br>RIO DE JANEIRO 4<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8692662201906435 RIO DE JANEIRO - 0.11954794266711481</div>`)[0];
+                popup_4dc08ff08d057d6621256f2e27c7e7b4.setContent(html_91d49f96e243b7fe76d45ac922171560);
+            
+        
+
+        circle_marker_e9fa951ce4f987e43d5ab2b389d18a9d.bindPopup(popup_4dc08ff08d057d6621256f2e27c7e7b4)
+        ;
+
+        
+    
+    
+            var circle_marker_e1f48ee84a6e128bf330d24f2a6bc09d = L.circleMarker(
+                [-20.797697898, -41.4029345741],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_30e6cce5877124243da77374cedefc16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03f968596d547effe04ef6e420550bf1 = $(`<div id="html_03f968596d547effe04ef6e420550bf1" style="width: 100.0%; height: 100.0%;">3203106: JERÔNIMO MONTEIRO<br> Movimentos pendulares: VITÓRIA 37<br>RIO DE JANEIRO 31<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.5607306190984941 RIO DE JANEIRO - 0.39364776233374</div>`)[0];
+                popup_30e6cce5877124243da77374cedefc16.setContent(html_03f968596d547effe04ef6e420550bf1);
+            
+        
+
+        circle_marker_e1f48ee84a6e128bf330d24f2a6bc09d.bindPopup(popup_30e6cce5877124243da77374cedefc16)
+        ;
+
+        
+    
+    
+            var circle_marker_72dd13e802b5b78acab32f67529b7024 = L.circleMarker(
+                [-20.3908625108, -40.4956243359],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_6c957818e2857817dfd09a8bdce4eb91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19c0119e6d595a3b50e1620c0850e1cd = $(`<div id="html_19c0119e6d595a3b50e1620c0850e1cd" style="width: 100.0%; height: 100.0%;">3205101: VIANA<br> Movimentos pendulares: VITÓRIA 6670<br>RIO DE JANEIRO 21<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9579050443207755 RIO DE JANEIRO - 7.728157101575096e-09</div>`)[0];
+                popup_6c957818e2857817dfd09a8bdce4eb91.setContent(html_19c0119e6d595a3b50e1620c0850e1cd);
+            
+        
+
+        circle_marker_72dd13e802b5b78acab32f67529b7024.bindPopup(popup_6c957818e2857817dfd09a8bdce4eb91)
+        ;
+
+        
+    
+    
+            var circle_marker_cbd84d32436f75f238696d8ef75a93be = L.circleMarker(
+                [-18.0972363795, -40.5179268365],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_dae4aef2a445052d31abadb683827dce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c0b715d68794207412db9968da4fe94 = $(`<div id="html_2c0b715d68794207412db9968da4fe94" style="width: 100.0%; height: 100.0%;">3203601: MUCURICI<br> Movimentos pendulares: VITÓRIA 31<br>RIO DE JANEIRO 3<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9213460163959393 RIO DE JANEIRO - 0.07046529877947647</div>`)[0];
+                popup_dae4aef2a445052d31abadb683827dce.setContent(html_2c0b715d68794207412db9968da4fe94);
+            
+        
+
+        circle_marker_cbd84d32436f75f238696d8ef75a93be.bindPopup(popup_dae4aef2a445052d31abadb683827dce)
+        ;
+
+        
+    
+    
+            var circle_marker_fa094dfc4a2da34cba1d464001583187 = L.circleMarker(
+                [-19.398105934, -40.0653057983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_8ec04e1f6cf9fffa620616e25f9596ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d577db56f316286cd4f522339d4367de = $(`<div id="html_d577db56f316286cd4f522339d4367de" style="width: 100.0%; height: 100.0%;">3203205: LINHARES<br> Movimentos pendulares: VITÓRIA 966<br>RIO DE JANEIRO 68<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8564634157074485 RIO DE JANEIRO - 0.015032964002433582</div>`)[0];
+                popup_8ec04e1f6cf9fffa620616e25f9596ae.setContent(html_d577db56f316286cd4f522339d4367de);
+            
+        
+
+        circle_marker_fa094dfc4a2da34cba1d464001583187.bindPopup(popup_8ec04e1f6cf9fffa620616e25f9596ae)
+        ;
+
+        
+    
+    
+            var circle_marker_3fb4bfa52abfce2967c501287b96641f = L.circleMarker(
+                [-20.3315181771, -41.1290532107],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_c380a8dfd9fcc23b8e7882047a2d98f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5025d862e80bd1f80c0030d8b22cdca = $(`<div id="html_e5025d862e80bd1f80c0030d8b22cdca" style="width: 100.0%; height: 100.0%;">3205069: VENDA NOVA DO IMIGRANTE<br> Movimentos pendulares: VITÓRIA 323<br>RIO DE JANEIRO 11<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9583522487925147 RIO DE JANEIRO - 0.019102528219367164</div>`)[0];
+                popup_c380a8dfd9fcc23b8e7882047a2d98f3.setContent(html_e5025d862e80bd1f80c0030d8b22cdca);
+            
+        
+
+        circle_marker_3fb4bfa52abfce2967c501287b96641f.bindPopup(popup_c380a8dfd9fcc23b8e7882047a2d98f3)
+        ;
+
+        
+    
+    
+            var circle_marker_dc564291aced3e6b4879d94f672b2c37 = L.circleMarker(
+                [-19.8025077109, -40.8565984869],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_13ce4c7b90dfbc8bef3122500e9c9694 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00eb9bf80b097da7672dcb6f023b08b7 = $(`<div id="html_00eb9bf80b097da7672dcb6f023b08b7" style="width: 100.0%; height: 100.0%;">3202702: ITAGUAÇU<br> Movimentos pendulares: VITÓRIA 79<br>RIO DE JANEIRO 5<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9426002962754021 RIO DE JANEIRO - 0.04602111044373029</div>`)[0];
+                popup_13ce4c7b90dfbc8bef3122500e9c9694.setContent(html_00eb9bf80b097da7672dcb6f023b08b7);
+            
+        
+
+        circle_marker_dc564291aced3e6b4879d94f672b2c37.bindPopup(popup_13ce4c7b90dfbc8bef3122500e9c9694)
+        ;
+
+        
+    
+    
+            var circle_marker_78e4bc0e8c0988c7860ff762dde60ff8 = L.circleMarker(
+                [-20.2340203467, -41.5072079993],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_667c66870f8a7889b081bac54d337758 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77f746afe9afd9399e748dfeea7706bd = $(`<div id="html_77f746afe9afd9399e748dfeea7706bd" style="width: 100.0%; height: 100.0%;">3202454: IBATIBA<br> Movimentos pendulares: VITÓRIA 110<br>RIO DE JANEIRO 11<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9083321559004848 RIO DE JANEIRO - 0.06855087578004317</div>`)[0];
+                popup_667c66870f8a7889b081bac54d337758.setContent(html_77f746afe9afd9399e748dfeea7706bd);
+            
+        
+
+        circle_marker_78e4bc0e8c0988c7860ff762dde60ff8.bindPopup(popup_667c66870f8a7889b081bac54d337758)
+        ;
+
+        
+    
+    
+            var circle_marker_d4d3da6068a7b1ab89abbc67381ced26 = L.circleMarker(
+                [-19.9334471176, -40.4037654444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_e90f34a7a4dca300b44981f5eef28cfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0d2ea0392dc0ff05a6c2405f24529ea = $(`<div id="html_f0d2ea0392dc0ff05a6c2405f24529ea" style="width: 100.0%; height: 100.0%;">3202207: FUNDÃO<br> Movimentos pendulares: VITÓRIA 727<br>RIO DE JANEIRO 11<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9726991498254536 RIO DE JANEIRO - 0.004952830000802226</div>`)[0];
+                popup_e90f34a7a4dca300b44981f5eef28cfa.setContent(html_f0d2ea0392dc0ff05a6c2405f24529ea);
+            
+        
+
+        circle_marker_d4d3da6068a7b1ab89abbc67381ced26.bindPopup(popup_e90f34a7a4dca300b44981f5eef28cfa)
+        ;
+
+        
+    
+    
+            var circle_marker_6f0407a34ee9c8203543cd266e382460 = L.circleMarker(
+                [-18.9873613692, -40.7366381674],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_512702c77402bcc373f53de7c451c547 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f265fc2a2c0640abcced0190b71d6e8 = $(`<div id="html_5f265fc2a2c0640abcced0190b71d6e8" style="width: 100.0%; height: 100.0%;">3200136: ÁGUIA BRANCA<br> Movimentos pendulares: VITÓRIA 25<br>RIO DE JANEIRO 4<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8778092852290016 RIO DE JANEIRO - 0.11118277489282254</div>`)[0];
+                popup_512702c77402bcc373f53de7c451c547.setContent(html_5f265fc2a2c0640abcced0190b71d6e8);
+            
+        
+
+        circle_marker_6f0407a34ee9c8203543cd266e382460.bindPopup(popup_512702c77402bcc373f53de7c451c547)
+        ;
+
+        
+    
+    
+            var circle_marker_ac19f81ab91b2855db144ceb5d7fb7f7 = L.circleMarker(
+                [-20.4565455936, -41.4175137805],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_2288c7c3e3d8bda0f795e6edcfcce006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d7915d890f1d70cf7beb9ce7e2a3d11 = $(`<div id="html_9d7915d890f1d70cf7beb9ce7e2a3d11" style="width: 100.0%; height: 100.0%;">3203700: MUNIZ FREIRE<br> Movimentos pendulares: VITÓRIA 15<br>RIO DE JANEIRO 75<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.1724948775295175 RIO DE JANEIRO - 0.793067087961548</div>`)[0];
+                popup_2288c7c3e3d8bda0f795e6edcfcce006.setContent(html_9d7915d890f1d70cf7beb9ce7e2a3d11);
+            
+        
+
+        circle_marker_ac19f81ab91b2855db144ceb5d7fb7f7.bindPopup(popup_2288c7c3e3d8bda0f795e6edcfcce006)
+        ;
+
+        
+    
+    
+            var circle_marker_4f941a40c9254b852d47aadf08d36b67 = L.circleMarker(
+                [-19.0219647536, -40.5295995078],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_f2ff64637570db23298d48956faaee6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65edfdad7f14e798331a70047d3a7feb = $(`<div id="html_65edfdad7f14e798331a70047d3a7feb" style="width: 100.0%; height: 100.0%;">3204708: SÃO GABRIEL DA PALHA<br> Movimentos pendulares: VITÓRIA 103<br>RIO DE JANEIRO 32<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.7585518372367169 RIO DE JANEIRO - 0.18449717356038076</div>`)[0];
+                popup_f2ff64637570db23298d48956faaee6a.setContent(html_65edfdad7f14e798331a70047d3a7feb);
+            
+        
+
+        circle_marker_4f941a40c9254b852d47aadf08d36b67.bindPopup(popup_f2ff64637570db23298d48956faaee6a)
+        ;
+
+        
+    
+    
+            var circle_marker_f37a9b8c87a4b5c485b61e61ae36b15f = L.circleMarker(
+                [-18.9936174392, -40.3905897775],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_97eabfef874b241366bad27a231eaaaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92bed57517c2a4be3f12f0dc9bd3c340 = $(`<div id="html_92bed57517c2a4be3f12f0dc9bd3c340" style="width: 100.0%; height: 100.0%;">3205176: VILA VALÉRIO<br> Movimentos pendulares: VITÓRIA 26<br>RIO DE JANEIRO 4<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8816563273466091 RIO DE JANEIRO - 0.10741745927936774</div>`)[0];
+                popup_97eabfef874b241366bad27a231eaaaf.setContent(html_92bed57517c2a4be3f12f0dc9bd3c340);
+            
+        
+
+        circle_marker_f37a9b8c87a4b5c485b61e61ae36b15f.bindPopup(popup_97eabfef874b241366bad27a231eaaaf)
+        ;
+
+        
+    
+    
+            var circle_marker_2929709607674ae708eead234ea310ae = L.circleMarker(
+                [-20.0770400098, -41.1254597168],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_c9f05998f7d4ffe2ffae94a47e22ea23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df7e01462cac98d28b36c37c933783e9 = $(`<div id="html_df7e01462cac98d28b36c37c933783e9" style="width: 100.0%; height: 100.0%;">3200102: AFONSO CLÁUDIO<br> Movimentos pendulares: VITÓRIA 151<br>RIO DE JANEIRO 9<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9406954170410178 RIO DE JANEIRO - 0.04033360530173398</div>`)[0];
+                popup_c9f05998f7d4ffe2ffae94a47e22ea23.setContent(html_df7e01462cac98d28b36c37c933783e9);
+            
+        
+
+        circle_marker_2929709607674ae708eead234ea310ae.bindPopup(popup_c9f05998f7d4ffe2ffae94a47e22ea23)
+        ;
+
+        
+    
+    
+            var circle_marker_ba741b2e44a5f59256ecf830e562cb9e = L.circleMarker(
+                [-19.9377143171, -40.5989977215],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_30e626fa6ffa2e83ea1b3a2e99244844 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7fa67e938ea1a47af53dc1714f2c61 = $(`<div id="html_ab7fa67e938ea1a47af53dc1714f2c61" style="width: 100.0%; height: 100.0%;">3204609: SANTA TERESA<br> Movimentos pendulares: VITÓRIA 246<br>RIO DE JANEIRO 22<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9037197195435042 RIO DE JANEIRO - 0.052758603788901404</div>`)[0];
+                popup_30e626fa6ffa2e83ea1b3a2e99244844.setContent(html_ab7fa67e938ea1a47af53dc1714f2c61);
+            
+        
+
+        circle_marker_ba741b2e44a5f59256ecf830e562cb9e.bindPopup(popup_30e626fa6ffa2e83ea1b3a2e99244844)
+        ;
+
+        
+    
+    
+            var circle_marker_7c9a47d99a56ff064a834ee5ac78a107 = L.circleMarker(
+                [-19.4128127579, -40.5509510032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_846ead24c7c346195c90a0ac3000fcd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbb9574fd9983ff5da526da629064ddb = $(`<div id="html_cbb9574fd9983ff5da526da629064ddb" style="width: 100.0%; height: 100.0%;">3203353: MARILÂNDIA<br> Movimentos pendulares: VITÓRIA 31<br>RIO DE JANEIRO 6<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8534074338766285 RIO DE JANEIRO - 0.1316708760557247</div>`)[0];
+                popup_846ead24c7c346195c90a0ac3000fcd3.setContent(html_cbb9574fd9983ff5da526da629064ddb);
+            
+        
+
+        circle_marker_7c9a47d99a56ff064a834ee5ac78a107.bindPopup(popup_846ead24c7c346195c90a0ac3000fcd3)
+        ;
+
+        
+    
+    
+            var circle_marker_0d83960526a49f3b4c886c163c9eddc7 = L.circleMarker(
+                [-19.2244197863, -40.8560031007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_0e4cd88746966c09609324d7f8da77a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_322128bb727d5de947f5407d902ef88f = $(`<div id="html_322128bb727d5de947f5407d902ef88f" style="width: 100.0%; height: 100.0%;">3204005: PANCAS<br> Movimentos pendulares: VITÓRIA 46<br>RIO DE JANEIRO 21<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.7007492402677771 RIO DE JANEIRO - 0.2612090334103032</div>`)[0];
+                popup_0e4cd88746966c09609324d7f8da77a4.setContent(html_322128bb727d5de947f5407d902ef88f);
+            
+        
+
+        circle_marker_0d83960526a49f3b4c886c163c9eddc7.bindPopup(popup_0e4cd88746966c09609324d7f8da77a4)
+        ;
+
+        
+    
+    
+            var circle_marker_acd842c930fcccd3e0adfa26e351f4ea = L.circleMarker(
+                [-18.2971915038, -39.9549369517],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_2044030c8df7be47508ac0d83d982d31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5256973961709a4edcab001b62614597 = $(`<div id="html_5256973961709a4edcab001b62614597" style="width: 100.0%; height: 100.0%;">3204054: PEDRO CANÁRIO<br> Movimentos pendulares: VITÓRIA 86<br>RIO DE JANEIRO 20<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8130032503482292 RIO DE JANEIRO - 0.1482628828338344</div>`)[0];
+                popup_2044030c8df7be47508ac0d83d982d31.setContent(html_5256973961709a4edcab001b62614597);
+            
+        
+
+        circle_marker_acd842c930fcccd3e0adfa26e351f4ea.bindPopup(popup_2044030c8df7be47508ac0d83d982d31)
+        ;
+
+        
+    
+    
+            var circle_marker_c28e89be04aedd38ef789a875a222521 = L.circleMarker(
+                [-18.9004359094, -40.086140992],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_787465d6c19434747d1be33463136652 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f01e8fe4e5edcb10e46a983814321553 = $(`<div id="html_f01e8fe4e5edcb10e46a983814321553" style="width: 100.0%; height: 100.0%;">3203056: JAGUARÉ<br> Movimentos pendulares: VITÓRIA 111<br>RIO DE JANEIRO 21<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8379880111166486 RIO DE JANEIRO - 0.12119119382322029</div>`)[0];
+                popup_787465d6c19434747d1be33463136652.setContent(html_f01e8fe4e5edcb10e46a983814321553);
+            
+        
+
+        circle_marker_c28e89be04aedd38ef789a875a222521.bindPopup(popup_787465d6c19434747d1be33463136652)
+        ;
+
+        
+    
+    
+            var circle_marker_97e93ad1841d3ce2e613cc77a74dc63b = L.circleMarker(
+                [-20.6659745793, -40.4950210194],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_a9407dcf5bec2ca63c4ae4a9fbffc883 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbdd4ef429a2bcd5e6fb0e09f8ec397c = $(`<div id="html_dbdd4ef429a2bcd5e6fb0e09f8ec397c" style="width: 100.0%; height: 100.0%;">3202405: GUARAPARI<br> Movimentos pendulares: VITÓRIA 1813<br>RIO DE JANEIRO 197<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.664613953110719 RIO DE JANEIRO - 0.004940709717419072</div>`)[0];
+                popup_a9407dcf5bec2ca63c4ae4a9fbffc883.setContent(html_dbdd4ef429a2bcd5e6fb0e09f8ec397c);
+            
+        
+
+        circle_marker_97e93ad1841d3ce2e613cc77a74dc63b.bindPopup(popup_a9407dcf5bec2ca63c4ae4a9fbffc883)
+        ;
+
+        
+    
+    
+            var circle_marker_3ce445ea40def1057c3211197ea4ddd7 = L.circleMarker(
+                [-21.0653735085, -41.3644252659],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_8ed67914b33c657e69c56ee4f38049ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0471c4837e798a0c5f05e3eb6075696 = $(`<div id="html_b0471c4837e798a0c5f05e3eb6075696" style="width: 100.0%; height: 100.0%;">3203403: MIMOSO DO SUL<br> Movimentos pendulares: VITÓRIA 78<br>RIO DE JANEIRO 75<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.4992835750722566 RIO DE JANEIRO - 0.4092923134935138</div>`)[0];
+                popup_8ed67914b33c657e69c56ee4f38049ac.setContent(html_b0471c4837e798a0c5f05e3eb6075696);
+            
+        
+
+        circle_marker_3ce445ea40def1057c3211197ea4ddd7.bindPopup(popup_8ed67914b33c657e69c56ee4f38049ac)
+        ;
+
+        
+    
+    
+            var circle_marker_b9393ad7622c7a5453218cf446a49366 = L.circleMarker(
+                [-20.6204706518, -41.6799763286],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_c3e881d262d856d412074ddfe5999ce0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c86e23b7475e6de98d5fe8a6be9a84c = $(`<div id="html_8c86e23b7475e6de98d5fe8a6be9a84c" style="width: 100.0%; height: 100.0%;">3201803: DIVINO DE SÃO LOURENÇO<br> Movimentos pendulares: VITÓRIA 2<br>RIO DE JANEIRO 5<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.3470741736357353 RIO DE JANEIRO - 0.6401822741569628</div>`)[0];
+                popup_c3e881d262d856d412074ddfe5999ce0.setContent(html_8c86e23b7475e6de98d5fe8a6be9a84c);
+            
+        
+
+        circle_marker_b9393ad7622c7a5453218cf446a49366.bindPopup(popup_c3e881d262d856d412074ddfe5999ce0)
+        ;
+
+        
+    
+    
+            var circle_marker_d254376aecb990d3a5ea06a99f1e27bb = L.circleMarker(
+                [-19.1481685103, -40.6218777325],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_6df58e07ef5bc0feb7c1c217302840b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd359fddd6e2b8e6601bd275e4e2e4bc = $(`<div id="html_fd359fddd6e2b8e6601bd275e4e2e4bc" style="width: 100.0%; height: 100.0%;">3204658: SÃO DOMINGOS DO NORTE<br> Movimentos pendulares: VITÓRIA 21<br>RIO DE JANEIRO 2<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9247576828163034 RIO DE JANEIRO - 0.06898051725937637</div>`)[0];
+                popup_6df58e07ef5bc0feb7c1c217302840b5.setContent(html_fd359fddd6e2b8e6601bd275e4e2e4bc);
+            
+        
+
+        circle_marker_d254376aecb990d3a5ea06a99f1e27bb.bindPopup(popup_6df58e07ef5bc0feb7c1c217302840b5)
+        ;
+
+        
+    
+    
+            var circle_marker_4c6dfc2013960f4cfbbafd61e4fda3af = L.circleMarker(
+                [-18.5387151619, -40.3029556429],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_86d1ad9334686d560687a72950b4aa8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812ab84332f4689648323baae99af70d = $(`<div id="html_812ab84332f4689648323baae99af70d" style="width: 100.0%; height: 100.0%;">3201001: BOA ESPERANÇA<br> Movimentos pendulares: VITÓRIA 39<br>RIO DE JANEIRO 5<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8964054206764492 RIO DE JANEIRO - 0.09119941998232062</div>`)[0];
+                popup_86d1ad9334686d560687a72950b4aa8f.setContent(html_812ab84332f4689648323baae99af70d);
+            
+        
+
+        circle_marker_4c6dfc2013960f4cfbbafd61e4fda3af.bindPopup(popup_86d1ad9334686d560687a72950b4aa8f)
+        ;
+
+        
+    
+    
+            var circle_marker_515cb0936ee6532603596531683a2a8e = L.circleMarker(
+                [-18.4133233437, -40.2177280806],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_6bd1b67658d9f08a4039d05cc275afae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ebddd2473a41a5f70d9a41028a27af84 = $(`<div id="html_ebddd2473a41a5f70d9a41028a27af84" style="width: 100.0%; height: 100.0%;">3204104: PINHEIROS<br> Movimentos pendulares: VITÓRIA 63<br>RIO DE JANEIRO 10<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.869426451712596 RIO DE JANEIRO - 0.10889769799897885</div>`)[0];
+                popup_6bd1b67658d9f08a4039d05cc275afae.setContent(html_ebddd2473a41a5f70d9a41028a27af84);
+            
+        
+
+        circle_marker_515cb0936ee6532603596531683a2a8e.bindPopup(popup_6bd1b67658d9f08a4039d05cc275afae)
+        ;
+
+        
+    
+    
+            var circle_marker_d08b8d2399c1fd8f592858f6513b2f05 = L.circleMarker(
+                [-20.6303475371, -40.7600496463],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_510801858d2c82b13233aa9ad36e2000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d4b72d92780dc72b84b1ab3a33b290c = $(`<div id="html_5d4b72d92780dc72b84b1ab3a33b290c" style="width: 100.0%; height: 100.0%;">3200300: ALFREDO CHAVES<br> Movimentos pendulares: VITÓRIA 145<br>RIO DE JANEIRO 5<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9651940001302853 RIO DE JANEIRO - 0.023978056686515488</div>`)[0];
+                popup_510801858d2c82b13233aa9ad36e2000.setContent(html_5d4b72d92780dc72b84b1ab3a33b290c);
+            
+        
+
+        circle_marker_d08b8d2399c1fd8f592858f6513b2f05.bindPopup(popup_510801858d2c82b13233aa9ad36e2000)
+        ;
+
+        
+    
+    
+            var circle_marker_61a9838d2fc118f27279314fe6fb1617 = L.circleMarker(
+                [-20.8056132244, -40.647658942],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_29776acc2a4d553eff1285b8873c5146 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15e1b9a57c199d9e68d28c21ef0bfaf6 = $(`<div id="html_15e1b9a57c199d9e68d28c21ef0bfaf6" style="width: 100.0%; height: 100.0%;">3200409: ANCHIETA<br> Movimentos pendulares: VITÓRIA 377<br>RIO DE JANEIRO 32<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.8953657635235615 RIO DE JANEIRO - 0.04248270392862604</div>`)[0];
+                popup_29776acc2a4d553eff1285b8873c5146.setContent(html_15e1b9a57c199d9e68d28c21ef0bfaf6);
+            
+        
+
+        circle_marker_61a9838d2fc118f27279314fe6fb1617.bindPopup(popup_29776acc2a4d553eff1285b8873c5146)
+        ;
+
+        
+    
+    
+            var circle_marker_e4781f68e89dc74a22861a69336d96bc = L.circleMarker(
+                [-19.8318799979, -40.3716661792],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_173730fdf3a10a516eef53253ccbb224 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ecf47a91696419ef81be61985255de2 = $(`<div id="html_3ecf47a91696419ef81be61985255de2" style="width: 100.0%; height: 100.0%;">3202504: IBIRAÇU<br> Movimentos pendulares: VITÓRIA 184<br>RIO DE JANEIRO 8<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.9544707149568119 RIO DE JANEIRO - 0.028701624180213485</div>`)[0];
+                popup_173730fdf3a10a516eef53253ccbb224.setContent(html_3ecf47a91696419ef81be61985255de2);
+            
+        
+
+        circle_marker_e4781f68e89dc74a22861a69336d96bc.bindPopup(popup_173730fdf3a10a516eef53253ccbb224)
+        ;
+
+        
+    
+    
+            var circle_marker_147132aabafacc0cf5d050bafd5b8f3e = L.circleMarker(
+                [-20.157034186, -41.2896765285],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_c3254c577e37eabb6943b05d0e0eee6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d77ed80d907ccc2b424ef397c9674764 = $(`<div id="html_d77ed80d907ccc2b424ef397c9674764" style="width: 100.0%; height: 100.0%;">3201159: BREJETUBA<br> Movimentos pendulares: VITÓRIA 16<br>RIO DE JANEIRO 19<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.48949480939574935 RIO DE JANEIRO - 0.481620452087297</div>`)[0];
+                popup_c3254c577e37eabb6943b05d0e0eee6d.setContent(html_d77ed80d907ccc2b424ef397c9674764);
+            
+        
+
+        circle_marker_147132aabafacc0cf5d050bafd5b8f3e.bindPopup(popup_c3254c577e37eabb6943b05d0e0eee6d)
+        ;
+
+        
+    
+    
+            var circle_marker_83f64d83b4808d64ad63b49799ac0a64 = L.circleMarker(
+                [-18.3752523795, -40.8300811589],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_f8d7eb5de18cd2d0f1bedc684dd0ad49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b5cfea3934093bdd5d0a92783f4c541 = $(`<div id="html_1b5cfea3934093bdd5d0a92783f4c541" style="width: 100.0%; height: 100.0%;">3202108: ECOPORANGA<br> Movimentos pendulares: VITÓRIA 65<br>RIO DE JANEIRO 10<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.872602455856439 RIO DE JANEIRO - 0.10575005213601868</div>`)[0];
+                popup_f8d7eb5de18cd2d0f1bedc684dd0ad49.setContent(html_1b5cfea3934093bdd5d0a92783f4c541);
+            
+        
+
+        circle_marker_83f64d83b4808d64ad63b49799ac0a64.bindPopup(popup_f8d7eb5de18cd2d0f1bedc684dd0ad49)
+        ;
+
+        
+    
+    
+            var circle_marker_f380c61beba13b929207e9e8f236be90 = L.circleMarker(
+                [-20.95369231, -41.3462139981],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_ca7f38f5b0493fba6f05092476403724 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_511d81b0831a609e477cdc64da5132c4 = $(`<div id="html_511d81b0831a609e477cdc64da5132c4" style="width: 100.0%; height: 100.0%;">3203809: MUQUI<br> Movimentos pendulares: VITÓRIA 48<br>RIO DE JANEIRO 47<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.5126703917944527 RIO DE JANEIRO - 0.42661559110424285</div>`)[0];
+                popup_ca7f38f5b0493fba6f05092476403724.setContent(html_511d81b0831a609e477cdc64da5132c4);
+            
+        
+
+        circle_marker_f380c61beba13b929207e9e8f236be90.bindPopup(popup_ca7f38f5b0493fba6f05092476403724)
+        ;
+
+        
+    
+    
+            var circle_marker_04c9fe3076accf2a5e285eb137f77404 = L.circleMarker(
+                [-20.3201537925, -40.3222087268],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15, "stroke": true, "weight": 3}
+            ).addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+    
+        var popup_2d204b882ab5f10245c5ce8f9a9bfc31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6384207ee50f6786f36842ead447a18 = $(`<div id="html_a6384207ee50f6786f36842ead447a18" style="width: 100.0%; height: 100.0%;">3203809: MUQUI<br> Movimentos pendulares: VITÓRIA 48<br>RIO DE JANEIRO 47<br><br>A chance da primeira importação de infectados vir das capitais são: VITÓRIA - 0.5126703917944527 RIO DE JANEIRO - 0.42661559110424285</div>`)[0];
+                popup_2d204b882ab5f10245c5ce8f9a9bfc31.setContent(html_a6384207ee50f6786f36842ead447a18);
+            
+        
+
+        circle_marker_04c9fe3076accf2a5e285eb137f77404.bindPopup(popup_2d204b882ab5f10245c5ce8f9a9bfc31)
+        ;
+
+        
+    
+    
+            tile_layer_a064f190c2bdafd74f3ff6fc03776044.addTo(map_3d2913d3a6e7fd3d3be0641b07752cf9);
+        
+</script>
+</html>
